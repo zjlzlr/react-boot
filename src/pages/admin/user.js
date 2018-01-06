@@ -1,9 +1,9 @@
 import React from 'react';
-class User extends React.Component{
+class AdminUser extends React.Component{
     render(){
         return (
-            <h5>这是user</h5>
+            <h5>这是AdminUser</h5>
         );
     }
 }
-export default User;
+export default AdminUser;

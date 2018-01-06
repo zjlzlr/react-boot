@@ -1,0 +1,48 @@
+.register{
+	&-title{
+		height: 80px;
+		line-height: 80px;
+		margin-bottom: 100px;
+		box-shadow: 4px 1px 3px #c46aaf;
+		font-size: 30px;
+	}
+	&-content{
+		max-width: 600px;
+		padding: 20px 40px;
+		position: relative;
+		left: 50%;
+		margin-right: 15px;
+    transform: translateX(-50%);
+		box-sizing: border-box;
+		border-top: 2px solid #c46aaf;
+		box-shadow: 0 2px 5px rgba(0,0,0,.3);
+		.title {
+			text-align: center;
+			margin: 20px;
+		}
+		.code{
+			position: absolute;
+			right: 0px;
+			top: 0px;
+		}
+		.footer{
+			text-align: center;
+		}
+		.input-group-addon{
+			background-color: #5cb85c; 
+			color: #fff;
+		}
+	}
+	&-footer{
+		background: #646464;
+		height: 85px;
+		font-size: 14px;
+		text-align: center;
+		line-height: 1.8;
+		div{
+			position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+		}
+	}
+}

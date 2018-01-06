@@ -4,6 +4,6 @@ class Course extends React.Component{
         return (
             <h5>这是front Course</h5>
         );
-    }
+    };
 }
 export default Course;

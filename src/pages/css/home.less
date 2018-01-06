@@ -1,3 +1,4 @@
+@import '../../styles/color';
 .font-home-header{
     height: 60px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
@@ -9,16 +10,17 @@
     height: 60px;
     line-height: 60px;
     margin: 0 15px;
-		padding: 0 15px;
-		display: inline-block;
-		text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    text-decoration: none;
 }
 .font-home-header img{
-    height: 50px;
+	height: 50px;
 }
 .font-home-header .buy{
-	  line-height: 4.3;
+	line-height: 4;
 }
 .font-home-header .active{
-	  color: red;
+	color: @them;
+	border-bottom: 1px solid @them;
 }
